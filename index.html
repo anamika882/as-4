@@ -113,18 +113,18 @@
     </main>
     <script>
     function increaseValue() {
-        var value = parseInt(document.getElementById('number').value, 500);
+        var value = parseInt(document.getElementById('amount').value, 500);
         value = isNaN(value) ? 0 : value;
         value++;
-        document.getElementById('number').value = value;
+        document.getElementById('amount').value = value;
       }
       
       function decreaseValue() {
-        var value = parseInt(document.getElementById('number').value, 500);
+        var value = parseInt(document.getElementById('amount').value, 500);
         value = isNaN(value) ? 0 : value;
         value < 1 ? value = 1 : '';
         value--;
-        document.getElementById('number').value = value;
+        document.getElementById('amount').value = value;
       }
       </script>
  <!--Thank You-->
